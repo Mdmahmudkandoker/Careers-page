@@ -1,0 +1,188 @@
+/* 
+Color Code:
+
+Footer color - rgb(26, 1, 132);
+rgb(31, 114, 125)
+rgb(53, 156, 187)
+rgb(72, 209, 191)
+rgb(0, 215, 165)
+more button border color #003399
+
+*/
+
+/* google fonts Link */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Raleway&family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 80%;
+  margin: 0 auto;
+  /* margin: 0 40px 0 40px; */
+  font-family: 'Roboto', sans-serif;  
+}
+
+/* navbar section style starts */
+
+.fill-color{
+  background-color: #1A0285; 
+  height: 30px; 
+}
+
+.nav-container{
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 20px;
+
+}
+.logo-container{
+  display: flex;              
+  width: 50%;
+}
+
+.menu-items{
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin-right: 140px;
+}
+.menu-items .gradient-text{
+  background: linear-gradient(45deg, #084896, #8dc63f);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: bolder;
+}
+
+.menu-items a{
+  text-decoration: none;
+  color: gray;
+  font-size: 25px;
+}
+
+/* navbar section style ends */
+
+
+
+/* Main container section style starts */
+
+.main-container-section{
+  margin: 0 auto;
+  padding: 0 0 0 100px;
+  background-color: #F7F7F6;
+}
+      
+
+.main-container-first-section{
+    display: flex;
+}
+
+.main-container-left-side{
+    margin: auto;
+}
+.main-container-left-side h2{
+    color: rgb(0, 215, 165);
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.main-container-left-side p{
+    font-size: 18px;
+          
+}
+.main-container-left-side p span{
+    color: rgb(26, 1, 132);
+    font-weight: bolder;
+          
+}
+
+.vector-img{
+    margin-left: -30px;       
+}
+
+.BUBBLES-and-CAPSULE-image{
+    width: 100%;
+    padding: 40px 60px 40px 0;
+}
+
+/* main container second section(APPLY) style starts */
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    /* width: 100%; */
+    margin-right: 60px;
+    /* padding: 50px; */
+  }
+
+
+.table-container-main{
+    padding: 0 0 50px 0; 
+}
+
+  .apply-text-color{
+    color: rgb(0, 215, 165);
+    margin-bottom: 20px;
+  }
+  
+  td {
+    text-align: left;
+    padding: 12px 220px 12px 12px;
+    color: rgb(26, 1, 132);
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: white;            
+  }
+
+
+  /* footer style starts */  
+
+.Vector-image2{
+  width: 100%;
+}
+
+.footer-container{
+  background-color: #1A0285;
+  padding: 100px;
+}
+
+.footer-first-section{   
+  display: flex;
+  /* gap: 20px; */
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.margin-top-n{
+  margin-top: -30px;
+}
+
+.margin-top{
+  margin-top: 40px;
+}
+
+
+.text-white{
+  text-decoration: none; 
+  color: #fff;
+  font-size: 17px;  
+}
+
+.visit-link{
+  display: block;
+  font-weight: bold;
+}
+
+
+.footer-icon{
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 50px; */
+}
